@@ -23,23 +23,45 @@
         font-weight: bold;
         border: 3px solid #f1f1f1;
         position: absolute;
-        top: 75%;
+        top: 50%; /* Adjusted for better centering */
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 2;
-        width: 70%;
+        width: 80%; /* Using a relative unit */
         padding: 20px;
         text-align: center;
       }
 
-      .contact-link {
+      .link {
         position: absolute;
         bottom: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 20px;
+        font-size: 5vw; /* Responsive font size */
         color: black;
         text-align: center;
+      }
+
+      .contact-link {
+        left: 70%;
+      }
+
+      .about-link {
+        left: 0%;
+      }
+
+      /* Media Query for screens smaller than 600px */
+      @media only screen and (max-width: 600px) {
+        .bg-text,
+        .link {
+          width: 90%; /* Increase width for smaller screens */
+          font-size: 5vw; /* Increase font size for better readability */
+        }
+
+        .contact-link,
+        .about-link {
+          bottom: 5%; /* Adjust positioning */
+          left: 50%; /* Center links */
+          transform: translateX(-50%);
+        }
       }
     </style>
   </head>
@@ -52,6 +74,7 @@
       <p>Your trusted partner for custom gunsmithing needs.</p>
     </div>
 
-    <a href="contact.html" class="contact-link">Contact Curtis</a>
+    <a href="contact.html" class="link contact-link">Contact Curtis</a>
+    <a href="about.html" class="link about-link">About Curtis</a>
   </body>
 </html>
