@@ -6,7 +6,8 @@ This repository contains the source code for the official website of Curtis Smit
 
 - Responsive design with a mobile-friendly layout
 - High-quality background images showcasing our theme
-- Contact information and form for inquiries
+- Contact information and coming soon a form for inquiries
+- About section for Curtis Smith
 
 ## Pages
 
