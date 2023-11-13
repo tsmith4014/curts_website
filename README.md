@@ -2,12 +2,17 @@
 
 This repository contains the source code for the official website of Curtis Smith's Gunsmithing Service. The website offers information about our services, contact details, and showcases our expertise in gunsmithing.
 
+The website was designed and created by Chad Thompson-Smith -> [reach Chad here if interested in his work or want your own site](https://github.com/tsmith4014).
+
+The website is hosted on GitHub Pages and can be accessed at [Curtis Smith's Gunsmithing Service](https://tsmith4014.github.io/curts_website/).
+
 ## Features
 
 - Responsive design with a mobile-friendly layout
-- High-quality background images showcasing our theme
-- Contact information and coming soon a form for inquiries
+- High-quality background images showcasing desired theme
+- Contact information
 - About section for Curtis Smith
+- Coming soon a form for inquiries, social media links, and services offered
 
 ## Pages
 
@@ -33,4 +38,4 @@ This project is open source and available under the [MIT License](https://openso
 
 ---
 
-For more information, please visit [Your Website](https://tsmith4014.github.io/curts_website/) or contact us through the details provided on the contact page.
+For more information, [please visit](https://github.com/tsmith4014) or contact us through the details provided on the contact page.
